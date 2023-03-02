@@ -5,7 +5,7 @@ if (navigator.serviceWorker) {
       // After browser loads
       navigator.serviceWorker
         .register(
-          "/Contract articles/Service Workers/sw-demo/webServiceWorker.js"
+          "/serviceWorkerDemo/sw-demo/serviceWorker.js"
         ) // Register
         .then((reg) => console.log("service worker registered"))
         .catch((err) => console.log(`Here is the error: ${err}`));
